@@ -7,174 +7,134 @@
 
 */
 
-var multiConfig = {"THISROOM":"magicmikes","locationColor":"red","locationBackground":"green","currentView":"","viewList":["clubfloor","stageedge","viplounge","backstage","afterhours"],"defaultView":"Club Floor"}
+var multiConfig = {
+  "THISROOM": "magicmikes",
+  "locationColor": "red",
+  "locationBackground": "green",
+  "currentView": "",
+  "viewList": [
+    "clubfloor",
+    "stageedge",
+    "viplounge",
+    "backstage",
+    "afterhours"
+  ],
+  "defaultView": "clubfloor"
+};
 
 var roomstuff = {
-"rooms":{
+  "rooms": {
 
-"clubfloor":{
-"rName":"The Magic Mikes",
-"backgroundImage":"https://soi-designin.hyperchat.com/MMmainback.png",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-designin.hyperchat.com/MMsmainstagetop.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-designin.hyperchat.com/musicbg2-gj.png",
-"innerBGColor":"#1D2B14",
-"innerHRImage":"https://soi-designin.hyperchat.com/00maxs.jpg",
-"color":"#D8E8B8",
-"link":"#D8E8B8",
-"hlink":"#CAB79A",
-"selection":"red",
+    "clubfloor": {
+      "rName": "The Magic Mikes",
+      "backgroundImage": "https://soi-designin.hyperchat.com/MMmainback.png",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-designin.hyperchat.com/MMsmainstagetop.jpg'></center>",
+      "roombottom": "",
+      "borderBGImage": "https://soi-designin.hyperchat.com/musicbg2-gj.png",
+      "innerBGColor": "#1D2B14",
+      "innerHRImage": "https://soi-designin.hyperchat.com/00maxs.jpg",
+      "color": "#D8E8B8",
+      "link": "#D8E8B8",
+      "hlink": "#CAB79A",
+      "selection": "red",
 
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#D8E8B8",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#D8E8B8",
+      "inputBorderColor_Default": "#D8E8B8",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#D8E8B8"
+    },
 
-// Custom Input Colors
-//"fromBGColor":"#000000",
-//"fromFontColor":"#D8E8B8",
-//"toBGColor":"#000000",
-//"toFontColor":"#D8E8B8",
-//"spiritListBGColor":"#000000",
-//"spiritListFontColor":"#D8E8B8",
-//"chatBGColor":"#000000",
-//"chatFontColor":"#D8E8B8"
- },
+    "stageedge": {
+      "rName": "The Edge of the Stage",
+      "backgroundImage": "https://soi-designin.hyperchat.com/MMsafterhourstopuseforsure.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-designin.hyperchat.com/MMsstageedgetop.jpg'></center>",
+      "roombottom": "",
+      "borderBGImage": "https://soi-designin.hyperchat.com/musicbg2-gj.png",
+      "innerBGColor": "#3F2419",
+      "innerHRImage": "https://soi-cchome.hyperchat.com/TheKitchensep.jpg",
+      "color": "#F2DEA0",
+      "link": "#F2DEA0",
+      "hlink": "#E3DDCF",
+      "selection": "red",
 
-"stageedge":{
-"rName":"The Edge of the Stage",
-"backgroundImage":"https://soi-designin.hyperchat.com/MMsafterhourstopuseforsure.jpg",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-designin.hyperchat.com/MMsstageedgetop.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-designin.hyperchat.com/musicbg2-gj.png",
-"innerBGColor":"#3F2419",
-"innerHRImage":"https://soi-cchome.hyperchat.com/TheKitchensep.jpg",
-"color":"#F2DEA0",
-"link":"#F2DEA0",
-"hlink":"#E3DDCF",
-"selection":"red",
+      "inputBorderColor_Default": "#F2DEA0",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#F2DEA0"
+    },
 
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#F2DEA0",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#F2DEA0",
+    "viplounge": {
+      "rName": "VIP Lounge",
+      "backgroundImage": "https://soi-designin.hyperchat.com/VIPLoungeback.jpg",
+      "chatleft": "<img src='https://soi-designin.hyperchat.com/VIPLoungesidechatpic.jpg'>",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-designin.hyperchat.com/VIPLoungeTopuse.jpg'></center>",
+      "roombottom": "",
+      "borderBGImage": "https://soi-designin.hyperchat.com/musicbg2-gj.png",
+      "innerBGColor": "#3E2C22",
+      "innerHRImage": "https://soi-cchome.hyperchat.com/TheBathroomsep.jpg",
+      "color": "#F2DEA0",
+      "link": "#F2DEA0",
+      "hlink": "#E3DDCF",
+      "selection": "red",
 
-// Custom Input Colors
-//"fromBGColor":"#000000",
-//"fromFontColor":"#F2DEA0",
-//"toBGColor":"#000000",
-//"toFontColor":"#F2DEA0",
-//"spiritListBGColor":"#000000",
-//"spiritListFontColor":"#F2DEA0",
-//"chatBGColor":"#000000",
-//"chatFontColor":"#F2DEA0"
- },
+      "inputBorderColor_Default": "#F2DEA0",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#F2DEA0"
+    },
 
-"viplounge":{
-"rName":"VIP Lounge",
-"backgroundImage":"https://soi-designin.hyperchat.com/VIPLoungeback.jpg",
-"chatleft":"<img src=https://soi-designin.hyperchat.com/VIPLoungesidechatpic.jpg">,
-"underchat":"",
-"roomtop":"<center><img src=https://soi-designin.hyperchat.com/VIPLoungeTopuse.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-designin.hyperchat.com/musicbg2-gj.png",
-"innerBGColor":"#3E2C22",
-"innerHRImage":"https://soi-cchome.hyperchat.com/TheBathroomsep.jpg",
-"color":"#F2DEA0",
-"link":"#F2DEA0",
-"hlink":"#E3DDCF",
-"selection":"red",
+    "backstage": {
+      "rName": "Back Stage",
+      "backgroundImage": "https://soi-designin.hyperchat.com/MMsbackstagebackground.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-designin.hyperchat.com/MMsbackstagetop.jpg'></center>",
+      "roombottom": "",
+      "borderBGImage": "https://soi-designin.hyperchat.com/musicbg2-gj.png",
+      "innerBGColor": "#371F03",
+      "innerHRImage": "https://soi-designin.hyperchat.com/00maxs.jpg",
+      "color": "#F2DEA0",
+      "link": "#F2DEA0",
+      "hlink": "#E3DDCF",
+      "selection": "red",
 
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#F2DEA0",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#F2DEA0",
+      "inputBorderColor_Default": "#F2DEA0",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#F2DEA0"
+    },
 
-// Custom Input Colors
-//"fromBGColor":"#000000",
-//"fromFontColor":"#F2DEA0",
-//"toBGColor":"#000000",
-//"toFontColor":"#F2DEA0",
-//"spiritListBGColor":"#000000",
-//"spiritListFontColor":"#F2DEA0",
-//"chatBGColor":"#000000",
-//"chatFontColor":"#F2DEA0"
+    "afterhours": {
+      "rName": "After Hours Club",
+      "backgroundImage": "https://soi-cchome.hyperchat.com/TheBedroomback.jpg",
+      "chatleft": "",
+      "underchat": "",
+      "roomtop": "<center><img src='https://soi-cchome.hyperchat.com/TheBedroom.jpg'></center>",
+      "roombottom": "",
+      "borderBGImage": "https://soi-cchome.hyperchat.com/TheBedroomside.jpg",
+      "innerBGColor": "#2A2D40",
+      "innerHRImage": "https://soi-cchome.hyperchat.com/TheBedroomsep.jpg",
+      "color": "#F2DEA0",
+      "link": "#F2DEA0",
+      "hlink": "#E3DDCF",
+      "selection": "red",
 
- },
+      "inputBorderColor_Default": "#F2DEA0",
+      "inputBGColor_Default": "#000000",
+      "inputTextColor_Default": "#F2DEA0"
+    },
 
-"backstage":{
-"rName":"Back Stage",
-"backgroundImage":"https://soi-designin.hyperchat.com/MMsbackstagebackground.jpg",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-designin.hyperchat.com/MMsbackstagetop.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-designin.hyperchat.com/musicbg2-gj.png",
-"innerBGColor":"#371F03",
-"innerHRImage":"https://soi-designin.hyperchat.com/00maxs.jpg",
-"color":"#F2DEA0",
-"link":"#F2DEA0",
-"hlink":"#E3DDCF",
-"selection":"red",
+    "Rooms": {
+      "rDisable": "disabled",
+      "rName": "Rooms"
+    },
 
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#F2DEA0",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#F2DEA0",
+    "Code3": {
+      "rName": "vGraphic",
+      "roomId": "vgraphic@soi"
+    }
 
-// Custom Input Colors
-//"fromBGColor":"#000000",
-//"fromFontColor":"#F2DEA0",
-//"toBGColor":"#000000",
-//"toFontColor":"#F2DEA0",
-//"spiritListBGColor":"#000000",
-//"spiritListFontColor":"#F2DEA0",
-//"chatBGColor":"#000000",
-//"chatFontColor":"#F2DEA0"
+  }
+};
 
- },
-
-"afterhours":{
-"rName":"After Hours Club",
-"backgroundImage":"https://soi-cchome.hyperchat.com/TheBedroomback.jpg",
-"chatleft":"",
-"underchat":"",
-"roomtop":"<center><img src=https://soi-cchome.hyperchat.com/TheBedroom.jpg></center>",
-"roombottom":"",
-"borderBGImage":"https://soi-cchome.hyperchat.com/TheBedroomside.jpg",
-"innerBGColor":"#2A2D40",
-"innerHRImage":"https://soi-cchome.hyperchat.com/TheBedroomsep.jpg",
-"color":"#F2DEA0",
-"link":"#F2DEA0",
-"hlink":"#E3DDCF",
-"selection":"red",
-
-// Default/Matching Input Colors
-"inputBorderColor_Default":"#F2DEA0",
-"inputBGColor_Default":"#000000",
-"inputTextColor_Default":"#F2DEA0",
-
-// Custom Input Colors
-//"fromBGColor":"#000000",
-//"fromFontColor":"#F2DEA0",
-//"toBGColor":"#000000",
-//"toFontColor":"#F2DEA0",
-//"spiritListBGColor":"#000000",
-//"spiritListFontColor":"#F2DEA0",
-//"chatBGColor":"#000000",
-//"chatFontColor":"#F2DEA0"
-
- },
-
-"Rooms":{"rDisable":"disabled","rName":"Rooms"},
-
-"Code3":{
-"rName":"vGraphic",
-"roomId":"vgraphic@soi"
-}
-
-}}
