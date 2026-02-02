@@ -107,14 +107,14 @@ var roomstuff = {
 
     "afterhours": {
       "rName": "After Hours Club",
-      "backgroundImage": "https://soi-cchome.hyperchat.com/TheBedroomback.jpg",
+      "backgroundImage": "https://soi-designin.hyperchat.com/MMsafterhourstopuseforsure.jpg",
       "chatleft": "",
       "underchat": "",
-      "roomtop": "<center><img src='https://soi-cchome.hyperchat.com/TheBedroom.jpg'></center>",
+      "roomtop": "<center><img src='https://soi-designin.hyperchat.com/MMsafterhoursclub.jpg'></center>",
       "roombottom": "",
-      "borderBGImage": "https://soi-cchome.hyperchat.com/TheBedroomside.jpg",
+      "borderBGImage": "https://soi-designin.hyperchat.com/musicbg2-gj.png",
       "innerBGColor": "#2A2D40",
-      "innerHRImage": "https://soi-cchome.hyperchat.com/TheBedroomsep.jpg",
+      "innerHRImage": "https://soi-designin.hyperchat.com/00maxs.jpg",
       "color": "#F2DEA0",
       "link": "#F2DEA0",
       "hlink": "#E3DDCF",
